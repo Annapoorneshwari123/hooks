@@ -10,6 +10,7 @@ import Ex6 from './components/ex6'
 import Ex7 from './components/ex7reducer'
 import Ex8 from './components/ex8'
 import Ex9 from './components/ex9'
+import Ex10 from './components/ex10'
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
       <Route path='/Ex7' element={<Ex7/>}/>
       <Route path='/Ex8' element={<Ex8/>}/>
       <Route path='/Ex9' element={<Ex9/>}/>
+      <Route path='/Ex10' element={<Ex10/>}/>
+
+
 
     </Routes>
     </BrowserRouter>
